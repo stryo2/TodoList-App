@@ -58,13 +58,14 @@ form input,
     flex:1;
   }
   .trash-btn{
-    background: #5d0966;
+    background: #c30ad7;
+    margin: auto;
     color:white;
     cursor:pointer;
     transition: all 0.3 at ease;
   }
   .trash-btn:hover{
-    color: #5d0966;
+    color: #c30ad7;
     background:white;
   }
   .completed-btn{
@@ -83,7 +84,7 @@ form input,
   text-decoration: line-through;
   opacity: 0.5;
 }
-.fall{
-  transform: translateY(8rem) rotateZ(20deg);
+.rotate{
+  transform:rotateZ(20deg)translateY(8rem);
   opacity: 0;
 }
